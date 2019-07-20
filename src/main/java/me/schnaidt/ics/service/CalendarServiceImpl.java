@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class CalendarServiceImpl implements CalendarService {
-test
+
   private final String SUMMARY = "SUMMARY:";
 
   @Autowired
