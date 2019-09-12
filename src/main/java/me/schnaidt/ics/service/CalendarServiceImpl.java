@@ -115,8 +115,7 @@ public class CalendarServiceImpl implements CalendarService {
 
     //  games.forEach(System.out::println);
 
-    List<String> calendar = new ArrayList<>();
-    calendar.addAll(createNewCalendar());
+    List<String> calendar = new ArrayList<>(createNewCalendar());
     calendar.add("");
 
     games.forEach(g -> {
