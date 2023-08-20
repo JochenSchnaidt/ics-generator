@@ -1,16 +1,21 @@
 package me.schnaidt.ics.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class Game {
 
-  private String place;
+  private Club homeTeam;
+  private Club guestTeam;
+
   private String match;
+  private String location;
   private String time;
   private String description;
   private boolean isHomeGame;
+
+
+  private String rawSummary;
+  private String rawTime;
 
 }

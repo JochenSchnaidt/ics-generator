@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ics-generator
+
+ics:
+  file:
+    in: 2023-24.ics
+    out: out/my2023-24.ics
+  seasonStart: 2023-09-15
+  description: Adler Mannheim Spielplan 2023/24
